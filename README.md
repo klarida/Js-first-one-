@@ -21,3 +21,11 @@ for (let i = 0; i < 10; i++) {
   console.log(i);
   document.write(`<p>${i + 1}</p>`);
 }
+# EX 04 
+
+document.write(`<ol>`);
+for (let i = 0; i < movies.length; i++) {
+  document.write(`<li>${movies[i]}</li>`);
+}
+document.write(`</ol>`);
+* The answer to that will be 
