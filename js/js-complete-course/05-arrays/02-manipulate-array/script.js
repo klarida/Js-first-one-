@@ -8,7 +8,6 @@
 
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
-
 (function() {
 
     var fruits = [
@@ -24,6 +23,11 @@
         "cerise",
     ];
 
-    // your code here
+    run.addEventListener('click', manarray);
 
+    function manarray() {
+        fruits[0] = "banana";
+        fruits[fruits.length - 1] = "kiwi";
+        alert(fruits);
+    }
 })();

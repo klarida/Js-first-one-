@@ -89,6 +89,8 @@
         },
     ];
 
-    // your code here
-
+    document.getElementById("run").addEventListener("click", () => {
+        let target = people.find(({firstname , lastname}) => firstname === 'Jean' && lastname === 'Dupont');
+        console.log(`Email : ${target.email} , Index: ${people.indexOf(target)}`);
+    });
 })();
