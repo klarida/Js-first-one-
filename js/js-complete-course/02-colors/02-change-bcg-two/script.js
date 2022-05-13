@@ -12,5 +12,18 @@
 (function() {
 
     // your code here
+const  inputColor = document.getElementById('color');
+
+const runbutton = document.getElementById('run');
+runbutton.addEventListener('click', changeColor);
+
+function changeColor() {
+
+const valueInput = inputColor.value;
+document.body.style.backgroundColor = valueInput;
+
+
+}
+
 
 })();
