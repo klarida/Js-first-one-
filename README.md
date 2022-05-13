@@ -1,31 +1,68 @@
+# js-complete-course
 
-# Java Script 
-# EX 01, 02
-# Do you notice a difference between the 2 ex? 
+## Base
 
-* I Noticed that in the first one the document is wroten on the head 
-and in the second one is wroten in the body with js*
-## Why does it both show as header ???
+- [x] 01 var alert
+- [x] 02 var prompt
+- [x] 03 var prompt if
+- [x] 04 var confirm
 
-*Beacuse when you put document.write in front of a tag talks to the body.*
-*The write method in HTML is used to write some content or JavaScript code in a Document.*
-# EX 03
-The result of this ex it will be 10. 
-# WHY is 10? 
-* Is 10 because  the const amount is 10 and the i is a smaller nr than 10 , we can give 9 for example. *
-* So 1+9=10 
+## Colors
 
-const amount = 10;
+- [x] 01 bcg one
+- [x] 02 bcg two
+- [x] 03 bcg three
 
-for (let i = 0; i < 10; i++) {
-  console.log(i);
-  document.write(`<p>${i + 1}</p>`);
-}
-# EX 04 
+### links:
 
-document.write(`<ol>`);
-for (let i = 0; i < movies.length; i++) {
-  document.write(`<li>${movies[i]}</li>`);
-}
-document.write(`</ol>`);
-* The answer to that will be 
+- https://css-tricks.com/snippets/javascript/random-hex-color/
+
+
+## Dates
+
+- [x] 01 title by hr one
+- [x] 02 title by hr two
+- [x] 03 age by select  
+- [x] 04 local date
+- [x] 05 friday the 13th
+
+### links:
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+
+## Maths
+
+- [x] 01 calculator one
+- [x] 02 calculator two
+- [x] 03 fizzbuzz
+
+#### links:
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
+
+
+## Arrays
+
+- [x] 01 get element
+- [x] 02 manipulate array
+- [x] 03 walk one
+- [x] 04 walk two
+- [x] 05 walk three
+- [x] 06 find in array
+- [x] 07 filter array
+- [x] 08 array includes
+- [x] 09 reduce array
+
+#### links:
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop
+
+## DOM
+
+- [x] 01 select one
+- [x] 02 select two
+- [x] 03 select three
+
+## Fetch
+
+- Working progress
